@@ -552,17 +552,5 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"notf2xhcfb"},{"Name":"integrity","Value":"sha256-\u002BUW802wgVfnjaSbdwyHLlU7AVplb0WToOlvN1CnzIac="},{"Name":"label","Value":"_content/MedicalShifts/lib/bootstrap/dist/js/bootstrap.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"145401"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022\u002BUW802wgVfnjaSbdwyHLlU7AVplb0WToOlvN1CnzIac=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 23:17:47 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MedicalShifts/MedicalShifts.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MedicalShifts.xekvfu0qu8.bundle.scp.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GaD2lJX1eysQL/exIR4gerOwsWJj06lDUfJDnhqTtwk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5973"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022GaD2lJX1eysQL/exIR4gerOwsWJj06lDUfJDnhqTtwk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 23:20:01 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MedicalShifts/MedicalShifts.xekvfu0qu8.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MedicalShifts.xekvfu0qu8.bundle.scp.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xekvfu0qu8"},{"Name":"integrity","Value":"sha256-GaD2lJX1eysQL/exIR4gerOwsWJj06lDUfJDnhqTtwk="},{"Name":"label","Value":"_content/MedicalShifts/MedicalShifts.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5973"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022GaD2lJX1eysQL/exIR4gerOwsWJj06lDUfJDnhqTtwk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 23:20:01 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>
