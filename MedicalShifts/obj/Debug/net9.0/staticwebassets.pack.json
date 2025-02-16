@@ -2,7 +2,11 @@
   "Files": [
     {
       "Id": "c:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MedicalShifts.bundle.scp.css",
-      "PackagePath": "staticwebassets\\MedicalShifts.javn8gf252.bundle.scp.css"
+      "PackagePath": "staticwebassets\\MedicalShifts.ern87z8xb8.bundle.scp.css"
+    },
+    {
+      "Id": "c:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\wwwroot\\images\\hush-naidoo-jade-photography-yo01Z-9HQAw-unsplash.jpg",
+      "PackagePath": "staticwebassets\\images\\hush-naidoo-jade-photography-yo01Z-9HQAw-unsplash.jpg"
     },
     {
       "Id": "c:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",

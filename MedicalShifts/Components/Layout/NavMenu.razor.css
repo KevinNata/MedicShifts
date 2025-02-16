@@ -34,7 +34,7 @@ body {
 }
 
 .nav div.logo a:hover {
-    color: #00E676;
+    color: #3366cc;
 }
 
 .nav div.main_list {
@@ -66,13 +66,13 @@ body {
 }
 
 .nav div.main_list ul li a:hover {
-    color: #00E676;
+    color: #3366cc;
 }
 
-.home {
+.fondoNavBar {
     width: 100%;
-    height: 15vh;
-    background-color: #111;
+    height: 12vh;
+    background-color: #26272b;
     background-position: center top;
 	background-size:cover;
 }
