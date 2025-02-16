@@ -1,12 +1,8 @@
 {
   "Files": [
     {
-      "Id": "c:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\wwwroot\\app.css",
-      "PackagePath": "staticwebassets\\app.css"
-    },
-    {
-      "Id": "c:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\wwwroot\\favicon.png",
-      "PackagePath": "staticwebassets\\favicon.png"
+      "Id": "c:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MedicalShifts.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MedicalShifts.javn8gf252.bundle.scp.css"
     },
     {
       "Id": "c:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -183,6 +179,10 @@
     {
       "Id": "c:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "c:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MedicalShifts.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

@@ -28,10 +28,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/kvhol/Desktop/MedicShiftsGitHub/MedicShifts/MedicalShifts/Components/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [c:/Users/kvhol/Desktop/MedicShiftsGitHub/MedicShifts/MedicalShifts/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -55,3 +51,7 @@ build_metadata.AdditionalFiles.CssScope =
 [c:/Users/kvhol/Desktop/MedicShiftsGitHub/MedicShifts/MedicalShifts/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/kvhol/Desktop/MedicShiftsGitHub/MedicShifts/MedicalShifts/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-6mqlt6qtj3

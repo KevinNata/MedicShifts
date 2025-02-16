@@ -14,7 +14,6 @@ c:\Users\kvhol\Desktop\MedicShiftsGitHub\MedicShifts\MedicalShifts\obj\Debug\net
 c:\Users\kvhol\Desktop\MedicShiftsGitHub\MedicShifts\MedicalShifts\obj\Debug\net9.0\MedicalShifts.MvcApplicationPartsAssemblyInfo.cache
 c:\Users\kvhol\Desktop\MedicShiftsGitHub\MedicShifts\MedicalShifts\obj\Debug\net9.0\MedicalShifts.sourcelink.json
 c:\Users\kvhol\Desktop\MedicShiftsGitHub\MedicShifts\MedicalShifts\obj\Debug\net9.0\scopedcss\bundle\MedicalShifts.styles.css
-c:\Users\kvhol\Desktop\MedicShiftsGitHub\MedicShifts\MedicalShifts\obj\Debug\net9.0\compressed\mjuqmzza7y-khy4lop6wu.gz
 c:\Users\kvhol\Desktop\MedicShiftsGitHub\MedicShifts\MedicalShifts\obj\Debug\net9.0\compressed\l7oqzqbrmd-bqjiyaj88i.gz
 c:\Users\kvhol\Desktop\MedicShiftsGitHub\MedicShifts\MedicalShifts\obj\Debug\net9.0\compressed\xzq6qbqz69-c2jlpeoesf.gz
 c:\Users\kvhol\Desktop\MedicShiftsGitHub\MedicShifts\MedicalShifts\obj\Debug\net9.0\compressed\ge658volqj-erw9l3u2r3.gz
@@ -73,3 +72,8 @@ c:\Users\kvhol\Desktop\MedicShiftsGitHub\MedicShifts\MedicalShifts\obj\Debug\net
 c:\Users\kvhol\Desktop\MedicShiftsGitHub\MedicShifts\MedicalShifts\obj\Debug\net9.0\MedicalShifts.pdb
 c:\Users\kvhol\Desktop\MedicShiftsGitHub\MedicShifts\MedicalShifts\obj\Debug\net9.0\MedicalShifts.genruntimeconfig.cache
 c:\Users\kvhol\Desktop\MedicShiftsGitHub\MedicShifts\MedicalShifts\obj\Debug\net9.0\ref\MedicalShifts.dll
+c:\Users\kvhol\Desktop\MedicShiftsGitHub\MedicShifts\MedicalShifts\obj\Debug\net9.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+c:\Users\kvhol\Desktop\MedicShiftsGitHub\MedicShifts\MedicalShifts\obj\Debug\net9.0\scopedcss\projectbundle\MedicalShifts.bundle.scp.css
+c:\Users\kvhol\Desktop\MedicShiftsGitHub\MedicShifts\MedicalShifts\obj\Debug\net9.0\compressed\0mcbc3wnrm-mfl4vkmgz9.gz
+c:\Users\kvhol\Desktop\MedicShiftsGitHub\MedicShifts\MedicalShifts\obj\Debug\net9.0\compressed\ndaoageoe8-javn8gf252.gz
+c:\Users\kvhol\Desktop\MedicShiftsGitHub\MedicShifts\MedicalShifts\obj\Debug\net9.0\compressed\osevhgqd3d-javn8gf252.gz

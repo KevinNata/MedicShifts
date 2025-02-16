@@ -1,6 +1,5 @@
-/* _content/MedicalShifts/Components/Layout/NavMenu.razor.rz.scp.css */
-html[b-6mqlt6qtj3],
-body[b-6mqlt6qtj3] {
+html,
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +12,7 @@ body[b-6mqlt6qtj3] {
 
 /* Navbar section */
 
-.nav[b-6mqlt6qtj3] {
+.nav {
     width: 100%;
     height: 65px;
     position: fixed;
@@ -21,29 +20,29 @@ body[b-6mqlt6qtj3] {
     text-align: center;
 }
 
-.nav div.logo[b-6mqlt6qtj3] {
+.nav div.logo {
     float: left;
     width: auto;
     height: auto;
     padding-left: 3rem;
 }
 
-.nav div.logo a[b-6mqlt6qtj3] {
+.nav div.logo a {
     text-decoration: none;
     color: #fff;
     font-size: 2.5rem;
 }
 
-.nav div.logo a:hover[b-6mqlt6qtj3] {
+.nav div.logo a:hover {
     color: #00E676;
 }
 
-.nav div.main_list[b-6mqlt6qtj3] {
+.nav div.main_list {
     height: 65px;
     float: right;
 }
 
-.nav div.main_list ul[b-6mqlt6qtj3] {
+.nav div.main_list ul {
     width: 100%;
     height: 65px;
     display: flex;
@@ -52,38 +51,37 @@ body[b-6mqlt6qtj3] {
     padding: 0;
 }
 
-.nav div.main_list ul li[b-6mqlt6qtj3] {
+.nav div.main_list ul li {
     width: auto;
     height: 65px;
     padding: 0;
     padding-right: 3rem;
 }
 
-.nav div.main_list ul li a[b-6mqlt6qtj3] {
+.nav div.main_list ul li a {
     text-decoration: none;
     color: #fff;
     line-height: 65px;
     font-size: 2.4rem;
 }
 
-.nav div.main_list ul li a:hover[b-6mqlt6qtj3] {
+.nav div.main_list ul li a:hover {
     color: #00E676;
 }
 
-.home[b-6mqlt6qtj3] {
+.home {
     width: 100%;
     height: 15vh;
-    /* background-image: url(https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80); */
     background-color: #111;
     background-position: center top;
 	background-size:cover;
 }
 
-.navTrigger[b-6mqlt6qtj3] {
+.navTrigger {
     display: none;
 }
 
-.nav[b-6mqlt6qtj3] {
+.nav {
     padding-top: 20px;
     padding-bottom: 20px;
     -webkit-transition: all 0.4s ease;
@@ -92,22 +90,22 @@ body[b-6mqlt6qtj3] {
 
 
 @media screen and (max-width:1199px) {
-    .navTrigger[b-6mqlt6qtj3] {
+    .navTrigger {
         display: block;
     }
-    .nav div.logo[b-6mqlt6qtj3] {
+    .nav div.logo {
         margin-left: 15px;
     }
-    .nav div.main_list[b-6mqlt6qtj3] {
+    .nav div.main_list {
         width: 100%;
         height: 0;
         overflow: hidden;
     }
-    .nav div.show_list[b-6mqlt6qtj3] {
+    .nav div.show_list {
         height: auto;
         display: none;
     }
-    .nav div.main_list ul[b-6mqlt6qtj3] {
+    .nav div.main_list ul {
         flex-direction: column;
         width: 100%;
         height: 100vh;
@@ -118,17 +116,17 @@ body[b-6mqlt6qtj3] {
         /*same background color of navbar*/
         background-position: center top;
     }
-    .nav div.main_list ul li[b-6mqlt6qtj3] {
+    .nav div.main_list ul li {
         width: 100%;
         text-align: right;
     }
-    .nav div.main_list ul li a[b-6mqlt6qtj3] {
+    .nav div.main_list ul li a {
         text-align: center;
         width: 100%;
         font-size: 3rem;
         padding: 20px;
     }
-    .nav div.media_button[b-6mqlt6qtj3] {
+    .nav div.media_button {
         display: block;
     }
 }
@@ -137,7 +135,7 @@ body[b-6mqlt6qtj3] {
 /* Animation */
 /* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
 
-.navTrigger[b-6mqlt6qtj3] {
+.navTrigger {
     cursor: pointer;
     width: 30px;
     height: 25px;
@@ -148,7 +146,7 @@ body[b-6mqlt6qtj3] {
     bottom: 0;
 }
 
-.navTrigger i[b-6mqlt6qtj3] {
+.navTrigger i {
     background-color: #fff;
     border-radius: 2px;
     content: '';
@@ -157,41 +155,41 @@ body[b-6mqlt6qtj3] {
     height: 4px;
 }
 
-.navTrigger i:nth-child(1)[b-6mqlt6qtj3] {
+.navTrigger i:nth-child(1) {
     -webkit-animation: outT 0.8s backwards;
-    animation: outT-b-6mqlt6qtj3 0.8s backwards;
+    animation: outT 0.8s backwards;
     -webkit-animation-direction: reverse;
     animation-direction: reverse;
 }
 
-.navTrigger i:nth-child(2)[b-6mqlt6qtj3] {
+.navTrigger i:nth-child(2) {
     margin: 5px 0;
     -webkit-animation: outM 0.8s backwards;
-    animation: outM-b-6mqlt6qtj3 0.8s backwards;
+    animation: outM 0.8s backwards;
     -webkit-animation-direction: reverse;
     animation-direction: reverse;
 }
 
-.navTrigger i:nth-child(3)[b-6mqlt6qtj3] {
+.navTrigger i:nth-child(3) {
     -webkit-animation: outBtm 0.8s backwards;
-    animation: outBtm-b-6mqlt6qtj3 0.8s backwards;
+    animation: outBtm 0.8s backwards;
     -webkit-animation-direction: reverse;
     animation-direction: reverse;
 }
 
-.navTrigger.active i:nth-child(1)[b-6mqlt6qtj3] {
+.navTrigger.active i:nth-child(1) {
     -webkit-animation: inT 0.8s forwards;
-    animation: inT-b-6mqlt6qtj3 0.8s forwards;
+    animation: inT 0.8s forwards;
 }
 
-.navTrigger.active i:nth-child(2)[b-6mqlt6qtj3] {
+.navTrigger.active i:nth-child(2) {
     -webkit-animation: inM 0.8s forwards;
-    animation: inM-b-6mqlt6qtj3 0.8s forwards;
+    animation: inM 0.8s forwards;
 }
 
-.navTrigger.active i:nth-child(3)[b-6mqlt6qtj3] {
+.navTrigger.active i:nth-child(3) {
     -webkit-animation: inBtm 0.8s forwards;
-    animation: inBtm-b-6mqlt6qtj3 0.8s forwards;
+    animation: inBtm 0.8s forwards;
 }
 
 @-webkit-keyframes inM {
@@ -203,7 +201,7 @@ body[b-6mqlt6qtj3] {
     }
 }
 
-@keyframes inM-b-6mqlt6qtj3 {
+@keyframes inM {
     50% {
         transform: rotate(0deg);
     }
@@ -221,7 +219,7 @@ body[b-6mqlt6qtj3] {
     }
 }
 
-@keyframes outM-b-6mqlt6qtj3 {
+@keyframes outM {
     50% {
         transform: rotate(0deg);
     }
@@ -242,7 +240,7 @@ body[b-6mqlt6qtj3] {
     }
 }
 
-@keyframes inT-b-6mqlt6qtj3 {
+@keyframes inT {
     0% {
         transform: translateY(0px) rotate(0deg);
     }
@@ -266,7 +264,7 @@ body[b-6mqlt6qtj3] {
     }
 }
 
-@keyframes outT-b-6mqlt6qtj3 {
+@keyframes outT {
     0% {
         transform: translateY(0px) rotate(0deg);
     }
@@ -290,7 +288,7 @@ body[b-6mqlt6qtj3] {
     }
 }
 
-@keyframes inBtm-b-6mqlt6qtj3 {
+@keyframes inBtm {
     0% {
         transform: translateY(0px) rotate(0deg);
     }
@@ -314,7 +312,7 @@ body[b-6mqlt6qtj3] {
     }
 }
 
-@keyframes outBtm-b-6mqlt6qtj3 {
+@keyframes outBtm {
     0% {
         transform: translateY(0px) rotate(0deg);
     }
@@ -326,7 +324,7 @@ body[b-6mqlt6qtj3] {
     }
 }
 
-.affix[b-6mqlt6qtj3] {
+.affix {
     padding: 0;
     background-color: #111;
 }
@@ -336,18 +334,18 @@ body[b-6mqlt6qtj3] {
 
 
 
-.myH2[b-6mqlt6qtj3] {
+.myH2 {
 	text-align:center;
 	font-size: 4rem;
 }
-.myP[b-6mqlt6qtj3] {
+.myP {
 	text-align: justify;
 	padding-left:15%;
 	padding-right:15%;
 	font-size: 20px;
 }
 @media all and (max-width:700px){
-	.myP[b-6mqlt6qtj3] {
+	.myP {
 		padding:2%;
 	}
 }
