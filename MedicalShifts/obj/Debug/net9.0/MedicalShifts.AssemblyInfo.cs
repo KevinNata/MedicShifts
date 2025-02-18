@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MedicalShifts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce99a33f63ba164cda887aee810f97ded919289c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c96ca3a8a687a539004eeeb68ff7a5cf9006bd2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MedicalShifts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MedicalShifts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
