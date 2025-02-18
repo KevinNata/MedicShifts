@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e0Rk516YXbg=",
+  "dgSpecHash": "m2d27GXzrN4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\MedicalShifts.csproj",
+  "projectFilePath": "c:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\MedicalShifts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kvhol\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.2\\microsoft.aspnetcore.authorization.9.0.2.nupkg.sha512",
     "C:\\Users\\kvhol\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.2\\microsoft.aspnetcore.components.9.0.2.nupkg.sha512",
