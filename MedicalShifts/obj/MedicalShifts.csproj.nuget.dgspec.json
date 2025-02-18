@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\MedicalShifts.csproj": {}
+    "C:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\MedicalShifts.csproj": {}
   },
   "projects": {
-    "c:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\MedicalShifts.csproj": {
+    "C:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\MedicalShifts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\MedicalShifts.csproj",
+        "projectUniqueName": "C:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\MedicalShifts.csproj",
         "projectName": "MedicalShifts",
-        "projectPath": "c:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\MedicalShifts.csproj",
+        "projectPath": "C:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\MedicalShifts.csproj",
         "packagesPath": "C:\\Users\\kvhol\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\obj\\",
+        "outputPath": "C:\\Users\\kvhol\\Desktop\\MedicShiftsGitHub\\MedicShifts\\MedicalShifts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kvhol\\AppData\\Roaming\\NuGet\\NuGet.Config"
