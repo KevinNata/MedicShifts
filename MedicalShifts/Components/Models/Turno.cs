@@ -31,5 +31,12 @@ class Turno
         args.Disabled = special || args.Disabled || args.Date.DayOfWeek == DayOfWeek.Sunday || args.Date.DayOfWeek == DayOfWeek.Saturday;
     }
 
+    public static IEnumerable<string> ObtenerHorariosDisponibles()
+    {
+        IEnumerable<string> horarios = new List<string> { "08:00", "09:00", "10:00", "11:00" };
+
+        return horarios;
+    }
+
 
 }

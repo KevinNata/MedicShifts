@@ -20,7 +20,7 @@ class Cobertura
 
         listaADevolver.Add(new Cobertura(){
             Id= 2,
-            NombreCobertura= "POLO OBRERO CONO SUR"
+            NombreCobertura= "OTRA"
         });
 
         return listaADevolver;

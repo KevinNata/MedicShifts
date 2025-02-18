@@ -13,19 +13,19 @@ class Medico
         medicos.Add(new Medico()
             {
                 Id=1,
-                NombreMedico="Dr.Pantalla"
+                NombreMedico="Dr.Gonzalez"
             });
 
         medicos.Add(new Medico()
             {
                 Id=2,
-                NombreMedico="Dr.Jarron"
+                NombreMedico="Dr.Perez"
             });
 
         medicos.Add(new Medico()
             {
                 Id=3,
-                NombreMedico="Dra.Botella"
+                NombreMedico="Dra.Ravettino"
             });
 
         return medicos;

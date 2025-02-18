@@ -1,5 +1,6 @@
 ﻿@page "/reservarturno"
 @rendermode InteractiveServer
+@inject DialogService DialogService
 
 <PageTitle>Reservar turno</PageTitle>
 
@@ -51,7 +52,16 @@
                                 <RadzenLabel Text="Selecciona la fecha del turno" Component="FechasPosibles" />
                             </RadzenColumn>
                             <RadzenColumn Size="12" SizeMD="8">
-                                <RadzenDatePicker @bind-Value=@nuevoTurno.FechaTurno DateRender=@nuevoTurno.ObtenerFechasDisponibles Name="FechasPosibles" />
+                                <RadzenDatePicker @bind-Value=@nuevoTurno.FechaTurno DateRender=@nuevoTurno.ObtenerFechasDisponibles DateFormat="d/M/yyyy" Name="FechasPosibles" />
+                            </RadzenColumn>
+                        </RadzenRow>
+                        <RadzenRow AlignItems="AlignItems.Center">
+                            <RadzenColumn Size="12" SizeMD="4">
+                                <RadzenLabel Text="Hora:" Component="FechasPosibles" />
+                            </RadzenColumn>
+                            <RadzenColumn Size="12" SizeMD="8">
+                                <RadzenTextBox @bind-Value=@nuevoTurno.HoraTurno Disabled="true" aria-label="Disabled TextBox" />
+                                <RadzenButton Text="Ver horarios" ButtonStyle="ButtonStyle.Secondary" Click=@MostrarHorariosDisponibles />
                             </RadzenColumn>
                         </RadzenRow>
 
@@ -62,8 +72,8 @@
         </RadzenColumn>   
     </RadzenRow>
     <RadzenStack Orientation="Orientation.Horizontal" JustifyContent="JustifyContent.Center" Gap="1rem" class="rz-mt-8 rz-mb-4">
-        <RadzenButton ButtonType="ButtonType.Submit" Size="ButtonSize.Large" Icon="save" Text="Reservar" />
-        <RadzenButton ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Large" Icon="cancel" Text="Cancel" Click="@Cancelar" />
+        <RadzenButton ButtonType="ButtonType.Submit" Click=@MostrarConfirmacion Size="ButtonSize.Large" Icon="save" Text="Confirmar" />
+        <RadzenButton ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Large" Icon="cancel" Text="Cancelar" Click="@Cancelar" />
     </RadzenStack>
     </RadzenTemplateForm>
 
@@ -77,9 +87,42 @@
     
     List<Medico> listaMedicos = Medico.ObtenerMedicos();
 
-   
+    async Task MostrarHorariosDisponibles()
+    {
+        var result = await DialogService.OpenAsync("Elegir horario", ds =>
+        @<RadzenStack Gap="1.5rem">
+            <p><b>Horarios disponibles:</b></p>
+            <RadzenStack Orientation="Orientation.Horizontal" Gap="0.5rem" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.SpaceBetween">
+                <RadzenStack Orientation="Orientation.Horizontal">
+                    <RadzenLabel Text="Seleccionar" Component="DropDownBindValue" />
+                    <RadzenDropDown @bind-Value=@nuevoTurno.HoraTurno Data=@Turno.ObtenerHorariosDisponibles() Style="width: 30%; max-width: 400px;" Name="DropDownBindValue" />
+                    <RadzenButton Text="Reservar" Click="() => ds.Close(true)"  />
+                    <RadzenButton Text="Cancelar" Click="() => ds.Close(false)" ButtonStyle="ButtonStyle.Light" />
+                </RadzenStack>                
+            </RadzenStack>
+        </RadzenStack>
+        );
+    }
 
-    
+    async Task MostrarConfirmacion()
+    {
+        string fechaMostrar =  nuevoTurno.FechaTurno.ToString("dd-MM-yyyy");
+        
+        var result = await DialogService.OpenAsync("Confirmacion de reserva", ds =>
+        @<RadzenStack Gap="1.5rem" >
+            <p><b>Tu turno ha sido confirmado!</b></p>
+            <p>Aqui estan los datos de la reserva:</p>
+            <p><b>Paciente:</b> @nuevoTurno.NombrePaciente</p>
+            <p><b>Medico:</b> @nuevoTurno.Medico</p>
+            <p><b>Fecha:</b> @fechaMostrar</p>
+            <p><b>Hora:</b> @nuevoTurno.HoraTurno</p>
+            <RadzenStack Orientation="Orientation.Horizontal" Gap="0.5rem" AlignItems="AlignItems.End" JustifyContent="JustifyContent.Center">
+                <RadzenStack Orientation="Orientation.Horizontal">
+                    <RadzenButton Text="Cerrar" Click="() => ds.Close(true)" />                    
+                </RadzenStack>                
+            </RadzenStack>
+        </RadzenStack>);
+    }
     
 
     
